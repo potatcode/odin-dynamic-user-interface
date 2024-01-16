@@ -1,0 +1,29 @@
+ol {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu {
+    background-color: aqua;
+    padding: 0px 15px;
+}
+
+.nav-submenu {
+    background-color: aqua;
+}
+
+.nav-submenu > li {
+    padding: 15px 8px;
+}
+
+ol > li > ol {
+    display: block;
+    position: absolute;
+    padding: 0px;
+    margin: 10px 15px;
+}
+
+.hidden {
+    display: none;
+    /* visibility: hidden; */
+}
